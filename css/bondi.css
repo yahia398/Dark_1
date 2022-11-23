@@ -1,0 +1,176 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: var(--green-color);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.main-btn {
+    background-color: var(--red-color);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+    color: var(--green-color);
+    border:#33d1cc 1px solid;
+}
+.secondary-btn {
+    background-color: var(--red-color);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.secondary-btn:hover {
+    color: var(--red-color);
+    border:var(--red-color) 1px solid;
+}
+/* Start Navbar */
+.navbar {
+    background-color: var(--dark-color);
+}
+.nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+}
+.navbar .navbar-toggler {
+    border: solid 1px white;
+    color: white;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .search {
+    color: white;
+    border-left: var(--green-color) 2px solid;
+}
+.navbar .search svg {
+    color: var(--green-color);
+}
+/* End Navbar */
+/* Start landing */
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 70px);
+}
+
+/* Start Creating projects */
+.creating-project {
+    background-color: var(--dark-color);
+    min-height: calc(50vh);
+}
+/* End Creating projects */
+/* Start Subscription Section */
+.subscribe .container form input[type="email"] {
+    border: none;
+    border-bottom: white solid 1px;
+    background-color: transparent;
+}
+.subscribe .container form input[type="email"]:focus {
+    outline: none;
+    border-bottom: white solid 1px;
+}
+.subscribe .container form input[type="email"]::placeholder {
+    color: white;
+}
+.subscribe .container form input[type="submit"] {   
+    width: 100px;
+}
+.subscribe .container form input[type="submit"]:hover {   
+    background-color: transparent;
+    border: #19283f solid 2px;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+/* End Subscription Section */
+/* Start Footer */
+footer {
+    background-color: var(--dark-color);
+    min-height: 300px;
+}
+footer .nav-link:hover {
+    color: var(--green-color);
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: rgb(0, 193, 252);
+}
+/* End Footer */
+
+/*Start Login Page */
+.login {
+    min-height: calc(100vh - 100px);
+}
+.login form input[type="text"]:focus {
+    box-shadow: none;
+    border: var(--red-color) 1px solid;
+}
+.login form input[type="password"]:focus {
+    box-shadow: none;
+    border: var(--red-color) 1px solid;
+}
+.form-outer {
+    border: 1px solid var(--red-color);
+    padding: 56px;
+}
+.form-outer h2 {
+    background-color: white;
+    margin-top: -80px;
+    width: fit-content;
+    padding-right: 25px;
+    padding-left: 13px;
+    color: var(--red-color);
+}
+.link {
+    color: black;
+    text-decoration: underline;
+}
+.link:hover {
+    color: #ff3150;
+}
+/* End Login Page */
+/* Start Registeration */
+.register {
+    min-height: calc(85vh - 70px);
+    border: 1px solid var(--red-color);
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.register h2 {
+    background-color: white;
+    width: fit-content;
+    padding-right: 25px;
+    padding-left: 13px;
+    color: var(--red-color);
+    margin-top: -22px;
+}
+.register form {
+    padding: 35px;
+}
+.register form input[type="text"]:focus {
+    box-shadow: none;
+    border: var(--red-color) 1px solid;
+}
+.register form input[type="password"]:focus {
+    box-shadow: none;
+    border: var(--red-color) 1px solid;
+}
+.register form input[type="email"]:focus {
+    box-shadow: none;
+    border: var(--red-color) 1px solid;
+}
+/* End Registeration */
