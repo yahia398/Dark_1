@@ -3,14 +3,9 @@
     --green-color: #33d1cc;
     --red-color: #ff3150;
     --yellow-color: #ffc400;
+    --section-color: #eff7fa;
 }
-a {
-    text-decoration: none;
-    color: white;
-}
-a:hover {
-    color: var(--green-color);
-}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -65,7 +60,31 @@ body {
     background-color: var(--dark-color);
     min-height: calc(100vh - 70px);
 }
-
+/* End Landing */
+/* Start Features */
+.main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons {
+    color: var(--green-color);
+}
+.secondary-para {
+    width: 350px;
+}
+/* End Features */
+/* Start Members */
+.members {
+    min-height: calc(60vh);
+    background-color: var(--section-color);
+}
+/* End Members */
 /* Start Creating projects */
 .creating-project {
     background-color: var(--dark-color);
